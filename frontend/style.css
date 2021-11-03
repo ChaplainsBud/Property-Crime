@@ -1,0 +1,14 @@
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: brown;
+}
+
+ul li:first-child {
+  flex-grow: 2;
+}
+
+ul li {
+  margin: 10px;
+}
